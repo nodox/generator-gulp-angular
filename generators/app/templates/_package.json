@@ -1,6 +1,7 @@
 {
   "name": "<%- appName %>",
   "version": "0.0.0",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^0.8.6",
     "boom": "^3.1.2",

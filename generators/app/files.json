@@ -24,6 +24,8 @@
     "bower.json",
     "typings.json",
 
+    "server.js",
+
     "karma.conf.js",
 
     "e2e/main.po.js",
@@ -37,6 +39,12 @@
     "gulp/watch.js",
     "gulp/server.js",
     "gulp/unit-tests.js",
+
+    "server/controllers/users.js",
+    "server/models/user.js",
+    "server/routes/users.js",
+    "server/routes/index.js",
+    "server/views/server.index.html",
 
     "src/app/index.module.js",
     "src/app/index.config.js",
