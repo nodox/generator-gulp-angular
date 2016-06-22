@@ -18,7 +18,7 @@ More informations, options, parameters in the [usage documentation page](docs/us
 
 ##### Install required tools `yo`, `gulp`, `nodemon` and `bower`:
 ```
-npm install -g yo gulp bower
+npm install -g yo gulp nodemon bower
 ```
 
 ##### Install `generator-wave`:
