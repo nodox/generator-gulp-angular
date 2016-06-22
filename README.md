@@ -1,3 +1,4 @@
+# generator-wave
 
 > A generator for HapiJS + AngularJS + MongoDB application stacks.
 
