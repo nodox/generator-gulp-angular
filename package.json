@@ -1,21 +1,20 @@
 {
-  "name": "generator-gulp-angular",
-  "version": "1.1.0",
+  "name": "generator-wave",
+  "version": "1.0.0",
   "preferGlobal": true,
-  "description": "Yeoman generator for AngularJS with Gulp",
-  "keywords": "yeoman-generator, angular, gulp, restangular, ui-router, bootstrap, angular-material, foundation, sass, less, es6, babel, traceur, typescript, coffeescript, jade, haml, webpack, eslint",
+  "description": "Yeoman generator for HapiJS, AngularJS, and MongoDB",
+  "keywords": "yeoman-generator, angular, gulp, restangular, ui-router, bootstrap, angular-material, foundation, sass, less, es6, babel, traceur, typescript, coffeescript, jade, haml, webpack, eslint, hapi, mongodb",
   "license": "MIT",
-  "author": "Matthieu Lux & Mehdy Dara",
+  "author": "Steven Natera",
   "contributors": [
-    "Matthieu Lux <matthieu.lux@gmail.com> (https://github.com/Swiip)",
-    "Mehdy Dara <mdara@eleven-labs.com> (http://eleven-labs.com/)"
+    "Steven Natera <snatera09@gmail.com> (https://github.com/nodox/generator-wave)"
   ],
   "files": [
     "index.js",
     "generators"
   ],
   "main": "index.js",
-  "repository": "Swiip/generator-gulp-angular",
+  "repository": "nodox/generator-wave",
   "scripts": {
     "pretest": "./scripts/prepare-test.sh",
     "test": "istanbul cover _mocha -- test/node test/template && mocha test/inception/test-inception.js -ig protractor --no-insight",

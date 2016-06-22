@@ -1,20 +1,5 @@
-## Launching [Fountain](http://fountainjs.io/) generators beta
 
-The team is proud to present the next evolution of the Yeoman gulp-angular as a new project called [FountainJS](http://fountainjs.io/).
-
-It covers Angular 1 like today but go way farther with support for Angular 2, React, SystemJS and Webpack!
-
-Check it out right now at [http://fountainjs.io/](http://fountainjs.io/).
-
-# generator-gulp-angular ![Logo](generators/app/templates/src/assets/images/generator-gulp-angular-logo.png)
-
-[![Build Status](https://img.shields.io/travis/Swiip/generator-gulp-angular/master.svg?style=flat-square)](http://travis-ci.org/Swiip/generator-gulp-angular)
-[![Coverage Status](https://img.shields.io/codecov/c/github/Swiip/generator-gulp-angular.svg?style=flat-square)](http://codecov.io/github/Swiip/generator-gulp-angular?branch=master)
-[![Dependencies](http://img.shields.io/david/Swiip/generator-gulp-angular.svg?style=flat-square)](https://david-dm.org/eleven-labs/generator-gulp-angular)
-[![NPM Version](http://img.shields.io/npm/v/generator-gulp-angular.svg?style=flat-square)](https://www.npmjs.org/package/generator-gulp-angular)
-[![Download Month](http://img.shields.io/npm/dm/generator-gulp-angular.svg?style=flat-square)](https://www.npmjs.org/package/generator-gulp-angular)
-
-> Yeoman generator for AngularJS + Gulp.
+> A generator for HapiJS + AngularJS + MongoDB application stacks.
 
 > Lets you quickly set up a project with:
 > * your favorite technologies
@@ -30,15 +15,18 @@ More informations, options, parameters in the [usage documentation page](docs/us
 
 ### Install
 
-##### Install required tools `yo`, `gulp` and `bower`:
+##### Install required tools `yo`, `gulp`, `nodemon` and `bower`:
 ```
 npm install -g yo gulp bower
 ```
 
-##### Install `generator-gulp-angular`:
+##### Install `generator-wave`:
 ```
-npm install -g generator-gulp-angular
+npm install -g generator-wave
 ```
+
+##### Install `mongodb`
+* [Visit their website and follow the installation steps](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 
 ### Run
@@ -48,10 +36,28 @@ npm install -g generator-gulp-angular
 mkdir my-new-project && cd $_
 ```
 
-##### Run `yo gulp-angular`, and select desired technologies:
+##### Run `yo wave`, and select desired technologies for the frontend:
 ```
-yo gulp-angular
+yo wave
 ```
+
+### Develop
+##### Run the mongod instance:
+```
+mongod
+```
+
+##### Start the Hapi Server using Nodemon:
+```
+nodemon server.js 8080
+```
+
+##### Start the frontend developmen server:
+```
+gulp serve
+```
+
+
 
 ## Documentation
 
@@ -96,7 +102,7 @@ yo gulp-angular
 
 ## Changelog
 
-[All changes listed in the GitHub releases](https://github.com/Swiip/generator-gulp-angular/releases)
+[All changes listed in the GitHub releases](https://github.com/Swiip/generator-wave/releases)
 
 
 ## Contributing

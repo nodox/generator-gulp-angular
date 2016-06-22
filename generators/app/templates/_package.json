@@ -1,7 +1,32 @@
 {
   "name": "<%- appName %>",
   "version": "0.0.0",
-  "dependencies": {},
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "boom": "^3.1.2",
+    "config": "^1.20.1",
+    "forever": "^0.15.2",
+    "good": "^7.0.1",
+    "good-console": "^6.1.1",
+    "good-file": "^6.0.1",
+    "good-http": "^6.0.1",
+    "good-squeeze": "^3.0.1",
+    "hapi": "^13.3.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-auth-jwt2": "^5.8.0",
+    "inert": "^4.0.0",
+    "jsonwebtoken": "^5.7.0",
+    "lodash": "^3.10.1",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.17",
+    "mongoose-timestamp": "^0.5.0",
+    "oauth": "^0.9.14",
+    "pg": "^4.5.3",
+    "sequelize": "^3.21.0",
+    "validator": "^5.2.0",
+    "xml2js": "^0.4.16"
+  },
   "scripts": {
     "test": "gulp test"
   },
@@ -88,6 +113,7 @@
 <% } -%>
     "karma-phantomjs-shim": "~1.2.0",
     "karma-coverage": "~0.5.2",
+    "karma-mocha-reporter": "^2.0.4",
     "karma-ng-html2js-preprocessor": "~0.2.0",
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
