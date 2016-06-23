@@ -1,0 +1,6 @@
+{
+  "name": "Wave",
+  "tagline": "A full stack scaffolding tool for HapiJS AngularJS, and MongoDB apps",
+  "body": "### What is Wave?\r\nWave is the full-stack answer to creating projects with HapiJS, AngularJS, and MongoDB. The Wave scaffolding tool will allow you to build scalable, and robust applications in a short amount of time.\r\n\r\n### Production Ready\r\nWave was designed with production readiness in mind. New applications are configured for AWS. Capistrano integration will allow you to create a deployment pipeline in your application.\r\n\r\n### Develop Faster\r\nThe Wave development environment is completely automated with GulpJS and Nodemon. Spend more time coding and less time writing configurations.\r\n\r\n### Get Involved!\r\nWave thrives on the contributions made by the community. Open an issues whenever a problem arises to keep us informed. With your help we can keep this project alive and current.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
